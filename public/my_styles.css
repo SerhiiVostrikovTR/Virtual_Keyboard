@@ -1,0 +1,66 @@
+.ui-keyboard-button{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background: black;
+    border: 1px solid #aaa;
+    margin: 50px;
+    line-height: 50px;
+    vertical-align: center;
+    font-family: Helvetica, Arial, sans-serif;
+    color: white;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.selected-button {
+    background: blue;
+}
+
+.hidden {
+    display: none;
+}
+
+.backspace {
+    width: 130px;
+}
+
+.tab {
+    width: 75px;
+}
+
+.space {
+    width: 355px;
+}
+
+.enter {
+    width: 135px;
+}
+
+.small-shift {
+    width: 80px;
+}
+
+.ctrl {
+    width: 70px;
+}
+
+.caps-lock-button {
+    width: 100px;
+}
+
+.text-area {
+    position: absolute;
+    width: 840px;
+    height: 300px;
+    left: 50px;
+}
+
+.comment {
+    font-family: Helvetica, Arial, sans-serif;
+    position: absolute;
+    left: 140px;
+    top: 320px;
+}
